@@ -1,0 +1,9 @@
+li a {
+    color: blue;
+    font-size: 25px; 
+}
+
+body {
+	color: inherit;
+    background: white url("images/blue-background.jpg") no-repeat;
+}

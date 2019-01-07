@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{% static 'polls/bootstrap-4.2.1-dist/css/bootstrap.min.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+</head>
+<body>
+
+{% include "polls/header.html" %}
+
+<div class="jumbotron">
+    <div class="container">
+		{% block main_content %}
+		{% endblock %}
+	</div>
+</div>
+<footer class="container">
+  <p>&copy; Company 2017-2018</p>
+</footer>
+</body>
+</html>
